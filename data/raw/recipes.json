@@ -6353,6 +6353,79 @@
                                   ["apple", 1]
                               ]
                           ]
-        }                
+        },
+        
+
+        {
+            "result": "wire_barbed",
+            "category": "CC_MISC",
+            "skill_pri": "mechanics",
+            "skill_sec": "construction",
+            "difficulty": 2,
+            "time": 8000,
+            "reversible": false,
+            "autolearn": true,
+            "tools": [
+                         [
+                             ["boltcutters", -1],
+                             ["toolset", -1]
+                         ],
+                         [
+                             ["hammer", -1],
+                             ["hatchet", -1]
+                         ]
+                     ],
+            "components": [
+                              [
+                                  ["wire", 2]
+                              ]
+                          ]
+        },
+        
+
+        {
+            "result": "bandana",
+            "category": "CC_ARMOR",
+            "skill_pri": "tailor",
+            "difficulty": 0,
+            "time": 2000,
+            "reversible": true,
+            "autolearn": true,
+            "tools": [
+                              [
+                                  ["needle_bone", 10],
+                                  ["sewing_kit", 10]
+                              ]
+                     ],
+            "components": [
+                              [
+                                  ["rag", 2]
+                              ]
+                          ]
+        },
+        {
+            "result": "screwdriver",
+            "category": "CC_MISC",
+            "skill_pri": "mechanics",
+            "difficulty": 0,
+            "time": 2000,
+            "reversible": false,
+            "autolearn": true,
+            "tools": [
+                         [
+                             ["hammer", -1],
+                             ["toolset", -1],
+                             ["hatchet", -1]
+                         ]
+                     ],
+            "components": [
+                              [
+                                  ["steel_chunk", 2]
+                              ],
+                              [
+                                  ["duct_tape", 30]
+                              ]
+                          ]
+        }
     ]
 }
